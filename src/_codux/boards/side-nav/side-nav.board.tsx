@@ -5,4 +5,7 @@ export default createBoard({
     name: 'SideNav',
     Board: () => <SideNav />,
     isSnippet: true,
+    environmentProps: {
+        canvasWidth: 324
+    }
 });

@@ -11,7 +11,6 @@ export interface SideNavProps {
  */
 export const SideNav = ({ className }: SideNavProps) => {
     return <div className={classNames(styles.root, className)}>
-        <input className={styles.searchInput} />
         <ul className={styles.footerUl}><li>
             <a href="/" className={styles.a}>Project 1 </a></li>
             <li>

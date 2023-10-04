@@ -1,0 +1,17 @@
+.root {
+    display: grid;
+    grid-template-rows: 5fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 11px;
+    justify-items: center;
+    background-color: #333;
+    color: white;
+    flex-grow: 7;
+}
+
+.footerUl {
+    list-style-type: none;
+    padding: 0;
+    color: #CED6D0;
+
+}

@@ -12,6 +12,18 @@
 .footerUl {
     list-style-type: none;
     padding: 0;
-    color: #CED6D0;
 
 }
+
+a{
+    color:  #78FFCE;
+    cursor:pointer;
+}
+
+
+a:hover {
+  color: #5BDAAC;
+  background-color: transparent;
+  text-decoration: underline;
+}
+

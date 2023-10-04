@@ -13,7 +13,7 @@ export const Footer = ({ className }: FooterProps) => {
     return <div className={classNames(styles.root, className)}>
         <div>
             <h4>Social media</h4>
-            <ul className={styles.footerUl}><li><a>Facebook</a></li><li><a>Twiter</a></li><li><a>instegram</a></li></ul>
+            <ul className={styles.footerUl}><li><a>Facebook</a></li><li><a>Twiter</a></li><li className={styles.link}><a>instegram</a></li></ul>
         </div>
         <div>
             <h4>Projects</h4>

@@ -10,7 +10,10 @@ export interface NavigationProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
 export const Navigation = ({ className }: NavigationProps) => {
-    return <nav className={styles.nav}>
+    return <nav className={classNames(styles.nav, className)}>
         <img src="https://i.ibb.co/ZNM5nH0/Frame-1050.png" alt="" className={styles.logo} />
         <a href="/home" className={styles.navLinks}>Home</a><a className={styles.navLinks} href="/projects">Projects</a><a href="/about" className={styles.navLinks}>About</a><a href="/contact" className={styles.navLinks}>Contact Us</a></nav>;
 };
+
+
+

@@ -6,7 +6,9 @@ export default createBoard({
     Board: () => <Footer />,
     isSnippet: true,
     environmentProps: {
-        canvasWidth: 686,
+        canvasWidth: 754,
         windowWidth: 1024
     }
 });
+
+

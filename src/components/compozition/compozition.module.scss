@@ -1,0 +1,30 @@
+.root {
+    display: grid;
+    grid-template-rows: 50px, 1fr, 1fr, 1fr, 1fr;
+    grid-template-columns: 20%;
+    grid-template-areas:
+        "nv nv "
+        "hd hd "
+        "sn cn"
+        "sn cn"
+        "sn ft"
+
+    ;
+}
+
+.footer1 {
+    grid-area: ft;
+    flex-grow: 0;
+}
+
+.nav1 {
+    grid-area: nv;
+}
+
+.SideNav1 {
+    grid-area: sn;
+}
+
+.header1{
+    grid-area: hd;
+}

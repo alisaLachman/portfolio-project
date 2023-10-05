@@ -1,7 +1,9 @@
 .root {
     padding: 20px;
     background-color: #5BDAAC;
-  
+    display: grid;
+    grid-template-rows: none;
+
 }
 
 
@@ -20,8 +22,3 @@
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
 }
-
-
-
-
-

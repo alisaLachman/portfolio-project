@@ -28,10 +28,10 @@
 
 .grid {
     display: grid;
-    grid-auto-flow: column;
+    grid-auto-flow: row;
     gap: 20px;
-    grid-template-rows: 1fr 1fr;
     grid-column-end: 4;
     grid-column-start: 2;
     padding: 40px;
+    grid-template-columns: 1fr 1fr;
 }

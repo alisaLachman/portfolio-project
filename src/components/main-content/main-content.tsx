@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import styles from './main-content.module.scss';
-import { Button } from '../button/button';
+import { PrimaryButton } from '../primary-button/primary-button';
 
 export interface MainContentProps {
     className?: string;
@@ -18,6 +18,5 @@ export const MainContent = ({ className }: MainContentProps) => {
         <img src="https://wixplosives.github.io/codux-assets-storage/add-panel/image-placeholder.jpg" alt="" className={styles.img} />
         <p className={styles.p}>This is a paragraph that describes what the project </p>
         <div className={styles.buttonDiv}></div>
-        <Button />
-    </div>;
+        <PrimaryButton /></div>;
 };

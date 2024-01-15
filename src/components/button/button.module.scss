@@ -1,30 +1,7 @@
-.root {}
-
 .button {
     position: relative;
     display: inline-block;
     width: 100%;
+    background-color: #A73232;
 
-}
-
-
-
-.button .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: rgba(0, 0, 0, 0.67);
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    left: 30px;
-    top: -40px;
-
-
-}
-
-.button:hover .tooltiptext {
-    visibility: visible;
 }

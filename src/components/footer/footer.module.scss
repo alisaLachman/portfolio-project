@@ -7,6 +7,10 @@
     background-color: #333;
     color: white;
     flex-grow: 7;
+    grid-row-end: 4;
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 .footerUl {

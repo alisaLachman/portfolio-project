@@ -12,19 +12,19 @@ export interface SideNavProps {
 export const SideNav = ({ className }: SideNavProps) => {
     return <div className={classNames(styles.root, className)}>
         <ul className={styles.footerUl}><li>
-            <a href="/" className={styles.a}>Project 1 </a></li>
+            <a href="/" className={styles.link}>Project 1 </a></li>
             <li>
-                <a href="/" className={styles.a}>Project 2</a></li>
+                <a href="/" className={styles.link}>Project 2</a></li>
             <li>
-                <a href="/" className={styles.a}>Project 3</a></li>
+                <a href="/" className={styles.link}>Project 3</a></li>
             <li>
-                <a href="/" className={styles.a}>Project 4</a></li>
+                <a href="/" className={styles.link}>Project 4</a></li>
             <li>
-                <a href="/" className={styles.a}>Project 5</a></li>
+                <a href="/" className={styles.link}>Project 5</a></li>
             <li>
-                <a href="/" className={styles.a}>Project 5</a></li>
+                <a href="/" className={styles.link}>Project 5</a></li>
             <li>
-                <a href="/" className={styles.a}>Project 6</a></li><li>
-                <a href="/" className={styles.a}>Project 7</a></li></ul>
+                <a href="/" className={styles.link}>Project 6</a></li><li>
+                <a href="/" className={styles.link}>Project 7</a></li></ul>
     </div>;
 };

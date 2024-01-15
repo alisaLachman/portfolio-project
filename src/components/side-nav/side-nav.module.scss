@@ -3,6 +3,9 @@
     background-color: #5BDAAC;
     display: grid;
     grid-template-rows: none;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
 
 }
 
@@ -13,7 +16,7 @@
 
 }
 
-.a {
+.link {
     color: #333;
     cursor: pointer;
 }
